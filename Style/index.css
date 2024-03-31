@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 40px;
+}
+.main_image{
+    float: right;
+    height: 290px;
+    width: 290px;
+    margin-top: 2%;
+    margin-right: 20px;
+    border-radius:35px; 
+}
+.info{
+    font-size: 30px;
+    color: #0f0102;
+    text-align: left;
+    margin: 2%;
+    font-family: "Exo", sans-serif;
+}
+.year{
+    font-family: "Kaushan Script", cursive;
+    font-size: 32px;
+    color: rgb(117, 6, 6);
+    margin: 2%;
+    margin-top: 0;
+}
+em{
+    color: rgb(208, 51, 111);
+}
+.one_store{
+    font-size: 35px;
+    color: rgb(168, 95, 5);
+    text-align: left;
+    margin: 2%;
+    font-family: "Madimi One", sans-serif;
+}
+.lists{
+    font-size: 27px;
+    margin-left: 30px;
+    margin-top: 0%;
+    color: #473003;
+    font-family: "Exo", sans-serif;
+}
+.nav_bar{
+    height: 60px;
+    background-color: rgb(254, 183, 170);
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+i{
+    font-size: 2rem;
+    display: flex;
+}
+h1{
+    color: hsl(330, 54%, 38%);
+    font-family: "Truculenta", sans-serif;
+    font-size: 40px;
+}
+.Categories{
+    font-size: 70px;
+    color: rgb(134, 7, 7);
+    padding: 4px;
+    text-align: center;
+    margin-top: 3%;
+    font-family: "Madimi One", sans-serif;
+}
+.category_info{
+    font-size: 45px;
+    color: #41403f;
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+}
+.slideshow-container {
+    width: 1250px;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+}
+.temp{
+    width: 1000px;
+    height: 600px;
+}
+.slideshow{
+    display: none;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+  
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
+.grid-item{
+    padding: 15px; 
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+    font-family: "Grenze", serif;
+    color: rgb(134, 7, 7);
+}
+.logo1{
+    height: 60px;
+    width: 60px;
+    float: right;
+    margin-right: 25px;
+    border-radius: 40px;
+}
+.profile_photo{
+    border-radius:135px 70px 120px 60px;
+    width: 330px;
+    height: 330px;
+}
+.img_hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 70px;
+    padding:10px;
+}
+.img_hover:hover{
+    transform: scale(1.4);
+}
+.video{
+    width: 300px;
+    height: 300px;
+    border-radius: 70px;
+    padding: 10px;
+}
+.video:hover{
+    transform: scale(1.4);
+}
+.head h2{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-size: 55px;
+    color: rgb(134, 7, 7);
+}
+.head p{
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    color: #473003;
+}
+.sub_head_chaab{
+    font-size: 45px;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    color: rgb(168, 95, 5);
+}
+.created-by{
+    font-size: 20px;
+    text-align: right;
+    color: rgb(15, 8, 71);
+    margin-right: 2%;
+    font-family: "Madimi One", sans-serif;
+ }
+/* RESPONSIVENESS */
+
+@media screen and (max-width:600px){
+    *{
+        margin: 0;
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+        float: left;
+        border-radius: 20px;
+    }
+    .main_image{
+        float: right;
+        height: 290px;
+        width: 290px;
+        margin-top: 0%;
+        margin-right: 20px;
+        border-radius:35px; 
+    }
+    .info{
+        font-size: 24px;
+        color: #0f0102;
+        text-align: left;
+        margin: 2%;
+        font-family: "Exo", sans-serif;
+    }
+    .year{
+        font-family: "Kaushan Script", cursive;
+        font-size: 32px;
+        text-align: center;
+        color: rgb(117, 6, 6);
+        margin: 2%;
+        margin-top: 0;
+    }
+    em{
+        color: rgb(208, 51, 111);
+        font-size: 24px;
+    }
+    .one_store{
+        font-size: 29px;
+        color: rgb(168, 95, 5);
+        text-align: left;
+        margin: 2%;
+        font-family: "Madimi One", sans-serif;
+    }
+    .lists{
+        font-size: 24px;
+        margin-left: 25px;
+        margin-top: 0%;
+        color: #473003;
+        font-family: "Exo", sans-serif;
+    }
+    .nav_bar{
+        height: 50px;
+        background-color: rgb(254, 183, 170);
+        display: flex;
+        margin-top: 8px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    i{
+        font-size: 1.5rem;
+        display: flex;
+    }
+    h1{
+        color: hsl(330, 54%, 38%);
+        font-family: "Truculenta", sans-serif;
+        font-size: 30px;
+    }
+    .Categories{
+        font-size: 40px;
+        color: rgb(134, 7, 7);
+        padding: 4px;
+        text-align: center;
+        margin-top: 3%;
+        font-family: "Madimi One", sans-serif;
+    }
+    .category_info{
+        font-size: 30px;
+        color: #41403f;
+        text-align: center;
+        font-family: "Kaushan Script", cursive;
+    }
+    .slideshow-container {
+        width: 320px; /*1200px*/
+        position: relative;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .temp{
+        width: 170px; /*1400px*/
+        height: 300px; /*650px*/
+    }
+    .slideshow{
+        display: none;
+    }
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+      
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+    
+    .grid-container {
+        display: grid;
+        --auto-grid-min-size: 10rem;
+        grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 0.8fr));
+        grid-gap: 0.8rem;
+        padding: 5px;
+    }
+    .grid-item{
+        padding: 8px; 
+        font-size: 20px;
+        text-align: center;
+        margin-top: 3%;
+        font-family: "Grenze", serif;
+        color: rgb(134, 7, 7);
+    }
+    .logo1{
+        height: 40px;
+        width: 40px;
+        float: right;
+        margin-right: 25px;
+        border-radius: 30px;
+    }
+    .profile_photo{
+        border-radius:95px 40px 90px 30px;  /*135px 70px 120px 60px; */
+        width: 160px;  /*350px*/
+        height: 160px;  /*350px*/  
+        
+    }
+    .img_hover{
+        border-radius: 50px; 
+        padding:8px;
+    }
+    .img_hover:hover{
+        transform: scale(1.4);
+    }
+    .video{
+        width: 250px;
+        height: 250px;
+        border-radius: 60px;
+        padding: 8px;
+    }
+    .video:hover{
+        transform: scale(1.4);
+    }
+    .head h2{
+        text-align: center;
+        font-family: "Madimi One", sans-serif;
+        font-size: 32px;
+        color: rgb(134, 7, 7);
+    }
+    .head p{
+        font-family: "Exo", sans-serif;
+        font-size: 20px;
+        margin-left: 15px;
+        color: #473003;
+    }
+    .sub_head_chaab{
+        font-size: 40px;
+        text-align: center;
+        font-family: "Madimi One", sans-serif;
+        color: rgb(168, 95, 5);
+    }
+    .home{
+        font-size: 20px;
+    }
+    .created-by{
+        font-size: 15px;
+        text-align: right;
+        color: rgb(15, 8, 71);
+        margin-right: 2%;
+        font-family: "Madimi One", sans-serif;
+     }
+}
